@@ -1,0 +1,29 @@
+{
+  "name": "mittip",
+  "version": "1.0.0",
+  "description": "Vad är mitt Ip nummer?. Vi har svaret",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "browserify ./entry.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pattan@github.com/pattan/mittip.git"
+  },
+  "keywords": [
+    "ip"
+  ],
+  "author": "Patrik Wilhelmsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pattan/mittip/issues"
+  },
+  "homepage": "https://github.com/pattan/mittip#readme",
+  "dependencies": {
+    "superagent": "^2.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1"
+  }
+}
